@@ -12,7 +12,7 @@ import {
 } from '@/components/ui/form'
 </script>
 <template>
-    <section class="bg-[#1ec7b8] ">
+    <section class="bg-[#1ec7b8] relative">
       <div class="max-w-5xl mx-auto flex md:flex-row items-center gap-10">
         <div class="w-full pb-15 md:w-1/2">
           <p class="text-white
@@ -33,22 +33,31 @@ import {
             BUY IT
           </Button>
         </div>
-        <div class="min-w-0 md:w-1/2 flex justify-end padding:0 md:justify-end">
+        <div class="min-w-0 md:w-1/2 flex justify-end padding:0 md:justify-end absolute right-0 bottom-0">
           <img src="/images/bike1.png" alt="Ricky Cycles commuter road bike" class="w-full max-w-400 object-contain scale-x-[-1]" />
         </div>
       </div>
     </section>
-    <section class="bg-green-400 flew flew-row">
-      <div class="w-1/2 flex flex-col items-center gap-10" >
-          <p class="max-w-5xl mx-auto flex flex-col text-black ">
+<section class="bg-[#ffffff] relative ">
+      <div class="max-w-5xl mx-auto flex md:flex-row items-center gap-10">
+        <div class="w-1/2 flex flex-col justify-center items-center gap-10" >
+          <p class="max-w-5xl mx-auto items-center justify-center flex flex-col text-black ">
             <h1 class="text-4xl font-extrabold">DEAL OF THE WEEK</h1>
             <h2 class="text-3xl font-mono pb-10 ">Pardus Robin Series</h2>
-            <h3 class="text-xl font-sans">Pardus is the official bicycle supplier<br /> of the Chinese National Cycling Team <br />and is backed by the Taishan Sports <br />Industry Group, which has provided<br /> equipment for the Olympic Games for over 40 years.</h3>
+            <h3 class="text-xl pl-7 font-sans">Pardus is the official bicycle supplier of the Chinese National Cycling Team and is backed by the Taishan Sports Industry Group, which has provided equipment for the Olympic Games for over 40 years.</h3>
           </p>
+        </div>
+        <div class="bg-emerald-700  min-w-0 md:w-1/2 flex justify-end padding:0 md:justify-end ">
+          <div class="bg-white items-center h-full w-full justify-center rounded-xl shadow-md p-10 max-w-sm absolute -top-10">
+            <h2 class="text-3xl  font-semibold text-gray-800 ">FILL OUT THE FORM</h2>
+            <p class="text-gray-500 text-lg mt-2">NAME</p>
+            <input type="text" class="border-b border-gray-400 outline-none bg-transparent w-full pt-3 pb-1"/>
+            <p class="text-gray-500 text-lg pt-10 mt-2">EMAIL</p>
+            <input type="text" class="border-b border-gray-400 outline-none bg-transparent w-full pt-3 pb-1"/>
+            <button type="submit" class="border-black bg-[#1d1d1b] text-2xl text-white w-full mt-10 pt-3 pr-5 pl-5 pb-3 ">Buy it</button>
+          </div>
+        </div>
       </div>
-      <div class=" w-1/2 bg-amber-800 justify-end ">
-        fill
-      </div>  
     </section>
     <section class="bg-white text-black py-8">
       <div class="max-w-5xl mx-auto flex flex-col gap-12">
