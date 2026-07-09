@@ -28,7 +28,7 @@ function handleSubmit() {
 
 <template>
     <div class="bg-[#1ec7b8] flex relative h-64 md:h-110 overflow-hidden">
-        <div class="mx-4 flex flex-col md:flex-row">
+        <div class="pr-20 mx-10 flex flex-col md:flex-row">
             <div class="w-1/2 flex items-start justify-start ">
                 <div class="flex flex-col md:px-20 md:pt-10 z-10">
                     <p class="text-white
@@ -50,7 +50,7 @@ function handleSubmit() {
                 </div>
             </div>
             <div class="w-1/2 justify-end">
-                <img src="/images/bike1.PNG" alt="bike" class="scale-x-[-1] object-contain w-auto h-70 md:w-2xl
+                <img src="/images/bike1.PNG" alt="bike" class="scale-x-[-1] object-contain w-auto h-72 md:h-auto md:w-2xl
                 absolute bottom-0 right-0">
             </div>
         </div>
