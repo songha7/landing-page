@@ -50,7 +50,7 @@ function handleSubmit() {
                 </div>
             </div>
             <div class="w-1/2 justify-end overflow-hidden">
-                <img src="/images/bike1.PNG" alt="bike" class="scale-x-[-1] object-contain max-w-none h-72 md:h-auto md:w-2xl
+                <img src="/images/bike1.png" alt="bike" class="scale-x-[-1] object-contain max-w-none h-72 md:h-auto md:w-2xl
                 absolute bottom-0 right-0">
             </div>
         </div>
@@ -87,7 +87,7 @@ function handleSubmit() {
             <Card class="shadow-2xl mx-3 py-3 px-3">
                 <div class="flex flex-col bg-white gap-4">
                 <div class="bg-[#fef1d6] aspect-full w-full overflow-hidden flex items-center justify-center rounded-xl">
-                    <img src="/images/bikethak.PNG" alt="Lightweight Design" class="w-full h-full object-cover scale-x-[-1]"/>
+                    <img src="/images/bikethak.png" alt="Lightweight Design" class="w-full h-full object-cover scale-x-[-1]"/>
                 </div>
                 <div class="flex flex-col gap-2">
                     <h3 class="font-extrabold text-base uppercase tracking-tight leading-tight">
@@ -103,7 +103,7 @@ function handleSubmit() {
                 <div class=" bg-white flex flex-col gap-4">
                     <!-- Crop image container -->
                     <div class="bg-[#d0d0ee] aspect-full w-full overflow-hidden flex items-center justify-center rounded-xl">
-                        <img src="/images/bikekeb.PNG" alt="Comfortable Ergonomics" class="w-full h-full object-cover scale-x-[-1]" />
+                        <img src="/images/bikekeb.png" alt="Comfortable Ergonomics" class="w-full h-full object-cover scale-x-[-1]" />
                     </div>
                     <!-- Crop image container-->
                     <div class="flex flex-col gap-2">
@@ -120,7 +120,7 @@ function handleSubmit() {
                 <div class="bg-white flex flex-col gap-4">
                     <!-- Crop image container -->
                     <div class="bg-[#b5e5df] aspect-full w-full overflow-hidden flex items-center justify-center rounded-xl">
-                        <img src="/images/bikehandbar.PNG" alt="Practical Accessories" class="w-full h-full object-cover scale-x-[-1]" />
+                        <img src="/images/bikehandbar.png" alt="Practical Accessories" class="w-full h-full object-cover scale-x-[-1]" />
                     </div>
                     <!-- Content text -->
                     <div class="flex flex-col gap-2">
