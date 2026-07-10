@@ -27,7 +27,7 @@ function handleSubmit() {
 </script>
 
 <template>
-    <div class="bg-[#1ec7b8] flex relative">
+    <div class="flex relative">
         <div class="mx-4">
             <div class="w-1/2 flex items-start justify-start h-64">
                 <div class="flex flex-col z-10">
